@@ -10,8 +10,10 @@ from database import create_db_and_tables, engine, create_user, authenticate_use
 
 
 
-load_dotenv()
-api_key = os.getenv("API_EdenAI")
+# load_dotenv()
+# api_key = os.getenv("API_EdenAI")
+api_key = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYjZjZGRiMDctOWJkMC00YWQxLTg0YTYtMGNlYTkzYjEwYTI0IiwidHlwZSI6ImFwaV90b2tlbiJ9.xOO_tymL2zwe4a4_DWQ3GbfrPmzOR8O_p445aVWIneM"
+
 
 # Initialize database
 create_db_and_tables()
