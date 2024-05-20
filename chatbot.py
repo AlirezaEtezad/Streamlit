@@ -1,5 +1,5 @@
-from dotenv import load_dotenv
-import os
+# from dotenv import load_dotenv
+# import os
 import streamlit as st
 from sqlmodel import Session
 import requests
